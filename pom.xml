@@ -346,7 +346,7 @@ Defined with a 'test' scope for the integration testing framework and unit testi
 			<plugin>
             <groupId>org.jboss.as.plugins</groupId>
             <artifactId>jboss-as-maven-plugin</artifactId>
-            <version>7.1.0.CR1b</version>
+            <version>7.0.0.Final</version>
             <executions>
                 <execution>
                     <phase>install</phase>
@@ -354,10 +354,10 @@ Defined with a 'test' scope for the integration testing framework and unit testi
                         <goal>deploy</goal>
                     </goals>    <!-- only remote server needs-->
                 <configuration>
-                   <hostname>192.168.21.31</hostname>
-                   <port>9999</port>
+                   <hostname>localhost</hostname>
+                   <port>9990</port>
                     <username>admin</username>
-                    <password>admin</password>
+                    <password>alijamila@123</password>
                 </configuration>
                 </execution>    
             </executions>
