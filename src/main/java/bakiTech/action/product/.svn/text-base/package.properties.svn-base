@@ -1,0 +1,11 @@
+error = ${getText(fieldName)} is required.
+int = ${getText(fieldName)} must be integer.
+productname = Product Name
+productprice = Product Price
+listprice = List Price
+userImage = Product Image
+quantity = Quantity
+description =  Product Description 
+briefdisc = Brief-Description
+addProduct = Add Product
+categoryname = Category Name

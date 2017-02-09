@@ -1,0 +1,39 @@
+<!DOCTYPE validators PUBLIC
+"-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+    <field name="productname">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+    </field>
+    <field name="productprice">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>        
+    </field>
+    <field name="listprice">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+    </field>
+    <field name="quantity">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+
+    </field>
+    <field name="description">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+
+    </field>
+    <field name="briefdisc">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+
+    </field>
+
+</validators>

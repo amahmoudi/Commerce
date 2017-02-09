@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.custom.i18n.resources" value="global" />
+	<constant name="struts.devMode" value="false" />
+
+	<include file="admin.xml" />
+
+	<package name="default" extends="struts-default">
+
+		<action name="loginPage">
+			<result>/resources/login.jsp</result>
+		</action>
+		<action name="loginsuccess" class="bakiTech.action.user.UserAction">
+			<result name="success" type="dispatcher">
+				<param name="location">/resources/home.jsp</param>
+			</result>
+			<result name="input">/resources/login.jsp</result>
+		</action>
+
+		<action name="userHome">
+			<result>/resources/home.jsp</result>
+		</action>
+        <action name="Home">
+			<result>index.jsp</result>
+		</action>
+
+		<action name="logoutAction">
+			<result>/resources/logoutPage.jsp</result>
+		</action>
+
+		<action name="registerPage">
+			<result>/resources/registerUser.jsp</result>
+		</action>
+
+		<action name="register" class="bakiTech.action.user.RegisterUser">
+			<result name="success">/resources/home.jsp</result>
+			<result name="input">/resources/registerUser.jsp</result>
+		</action>
+
+
+		<action name="viewProductUser" class="bakiTech.action.product.SearchProduct">
+			<result name="success">resources/viewProduct.jsp</result>
+		</action>
+
+		<action name="viewProductDetailUser" class="bakiTech.action.product.ViewProductDetail">
+			<result name="success" type="dispatcher">
+				<param name="location">resources/viewProductDetail.jsp</param>
+			</result>
+		</action>
+
+		<action name="searchProductByNameUser" method="SearchbyName"
+			class="bakiTech.action.product.SearchProduct">
+			<result name="success">resources/viewProduct.jsp</result>
+		</action>
+
+		<action name="searchProductByCategoryUser" method="searchByCategory"
+			class="bakiTech.action.product.SearchProduct">
+			<result name="success">resources/viewProduct.jsp</result>
+		</action>
+
+		<action name="searchProductByNameUser" method="SearchbyName"
+			class="bakiTech.action.product.SearchProduct">
+			<result name="success">resources/viewProduct.jsp</result>
+		</action>
+
+		<action name="searchProductByCategoryUser" method="searchByCategory"
+			class="bakiTech.action.product.SearchProduct">
+			<result name="success">resources/viewProduct.jsp</result>
+		</action>
+
+		<action name="viewShipping">
+			<result>resources/shippingOptions.jsp</result>
+		</action>
+
+		<action name="myCart">
+			<result>resources/myCart.jsp</result>
+		</action>
+
+		<action name="myCartWithoutShipping">
+			<result>resources/myCart.jsp</result>
+		</action>
+
+		<action name="purchaseReport">
+			<result>resources/purchaseReport.jsp</result>
+		</action>
+
+		<action name="userLogout">
+			<result>resources/logoutPage.jsp</result>
+		</action>
+		<action name="loginAdmin">
+			<result>/admin/index.jsp</result>
+		</action>
+		<action name="shopping">
+			<result>/resources/shopping.jsp</result>
+		</action>
+		<action name="forum">
+			<result name="success">/resources/forum.jsp</result>
+		</action>
+		<!-->admiinnnnn <-->
+		<action name="login">
+			<result>/admin/index.jsp</result>
+		</action>
+		<action name="adminlogin" class="bakiTech.action.admin.AdminUserAction">
+			<result name="success">/admin/adminHome.jsp</result>
+			<result name="input">/admin/index.jsp</result>
+		</action>
+		<action name="adminHome">
+			<result>/admin/adminHome.jsp</result>
+		</action>
+		<action name="viewUser" class="bakiTech.action.user.ViewUser">
+			<result name="success" type="dispatcher">
+				<param name="location">/admin/viewUser.jsp</param>
+			</result>
+		</action>
+		<action name="deleteUser" class="bakiTech.action.user.DeleteUser">
+			<result name="success" type="redirectAction">
+				<param name="actionName">viewUser</param>
+				<param name="namespace">/admin</param>
+			</result>
+		</action>
+
+		<action name="searchProductByName" method="SearchbyName"
+			class="bakiTech.action.product.SearchProduct">
+			<result name="success">/admin/viewProduct.jsp</result>
+		</action>
+
+		<action name="searchProductByCategory" method="searchByCategory"
+			class="bakiTech.action.product.SearchProduct">
+			<result name="success">/admin/viewProduct.jsp</result>
+		</action>
+
+		<action name="viewProduct" class="bakiTech.action.product.SearchProduct">
+			<result name="success">/admin/viewProduct.jsp</result>
+		</action>
+
+		<action name="viewProductDetail" class="bakiTech.action.product.ViewProductDetail">
+			<result name="success" type="dispatcher">
+				<param name="location">/admin/viewProductDetail.jsp</param>
+			</result>
+		</action>
+
+		<action name="deleteProduct" class="bakiTech.action.product.DeleteProduct">
+			<result name="success" type="redirectAction">
+				<param name="actionName">viewProduct</param>
+				<param name="namespace">/admin</param>
+			</result>
+		</action>
+
+		<action name="viewOrderedItem" class="bakiTech.action.orderItems.OrderItems">
+			<result name="success">/admin/viewOrderItem.jsp</result>
+		</action>
+
+		<action name="viewOrder" class="bakiTech.action.order.ShowOrder">
+			<result name="success">/admin/viewOrder.jsp</result>
+		</action>
+
+		<action name="addProductForm" class="bakiTech.action.product.AddProduct"
+			method="displayCategory">
+			<result name="display">/admin/addProduct.jsp</result>
+		</action>
+
+		<action name="addProduct" class="bakiTech.action.product.AddProduct">
+
+			<interceptor-ref name="exception" />
+			<interceptor-ref name="i18n" />
+			<interceptor-ref name="fileUpload">
+				<!--       		<param name="allowedTypes">file</param>-->
+				<param name="maximumSize">5000000</param>
+
+			</interceptor-ref>
+			<interceptor-ref name="params">
+				<param name="excludeParams">dojo\..*,^struts\..*</param>
+			</interceptor-ref>
+			<interceptor-ref name="validation">
+				<param name="excludeMethods">input,back,cancel,browse</param>
+			</interceptor-ref>
+			<interceptor-ref name="workflow">
+				<param name="excludeMethods">input,back,cancel,browse</param>
+			</interceptor-ref>
+
+			<result name="success" type="redirectAction">
+				<param name="actionName">viewProduct</param>
+				<param name="namespace">/admin</param>
+			</result>
+
+			<result name="input">/admin/addProduct.jsp</result>
+		</action>
+
+		<action name="updateProductForm" class="bakiTech.action.product.Update">
+			<result name="success">/admin/updateProduct.jsp</result>
+		</action>
+
+		<action name="updateProduct" class="bakiTech.action.product.UpdateProduct">
+
+			<interceptor-ref name="exception" />
+			<interceptor-ref name="i18n" />
+			<interceptor-ref name="fileUpload">
+				<!--       		<param name="allowedTypes">file</param>-->
+				<param name="maximumSize">5000000</param>
+
+			</interceptor-ref>
+			<interceptor-ref name="params">
+				<param name="excludeParams">dojo\..*,^struts\..*</param>
+			</interceptor-ref>
+			<interceptor-ref name="validation">
+				<param name="excludeMethods">input,back,cancel,browse</param>
+			</interceptor-ref>
+			<interceptor-ref name="workflow">
+				<param name="excludeMethods">input,back,cancel,browse</param>
+			</interceptor-ref>
+
+			<result name="success">/admin/adminHome.jsp</result>
+			<result name="input">/admin/updateProduct.jsp</result>
+
+		</action>
+
+		<action name="viewCategory" class="bakiTech.action.category.CategoryAction">
+			<result name="success">/admin/viewCategory.jsp</result>
+		</action>
+
+		<action name="addCategoryForm">
+			<result>/admin/AddCategory.jsp</result>
+		</action>
+
+		<action name="addCategory" method="addCategory"
+			class="bakiTech.action.category.CategoryAction">
+			<result name="input">/admin/AddCategory.jsp</result>
+			<result name="addCategory">/admin/header.jsp</result>
+		</action>
+
+		<action name="deleteCategory" method="deleteCategory"
+			class="bakiTech.action.category.CategoryAction">
+			<result name="deleted" type="redirectAction">
+				<param name="actionName">viewCategory</param>
+				<param name="namespace">/admin</param>
+			</result>
+		</action>
+
+		<action name="updateCategoryForm" class="bakiTech.action.category.Update">
+			<result name="success">/admin/updateCategory.jsp</result>
+		</action>
+
+		<action name="updateCategory" method="updateCategory"
+			class="bakiTech.action.category.CategoryAction">
+			<result name="updated" type="redirectAction">
+				<param name="actionName">viewCategory</param>
+				<param name="namespace">/admin</param>
+			</result>
+			<result name="input">/admin/updateCategory.jsp</result>
+		</action>
+
+		<action name="viewConfig" class="bakiTech.action.config.ConfigAction">
+			<result name="success">/admin/viewConfig.jsp</result>
+		</action>
+
+		<action name="deleteConfig" method="delete"
+			class="bakiTech.action.config.ConfigAction">
+			<result name="deleted" type="redirectAction">
+				<param name="actionName">viewConfig</param>
+				<param name="namespace">/admin</param>
+			</result>
+		</action>
+
+		<action name="addConfigForm" method="addConfigForm"
+			class="bakiTech.action.config.ConfigAction">
+			<result>/admin/addConfig.jsp</result>
+		</action>
+
+		<action name="addConfig" method="addConfig"
+			class="bakiTech.action.config.ConfigAction">
+			<result name="added">/admin/addConfig.jsp</result>
+			<result name="input">/admin/addConfig.jsp</result>
+		</action>
+
+		<action name="updateConfigForm" class="bakiTech.action.config.Update">
+			<result name="success">/admin/updateConfig.jsp</result>
+		</action>
+
+		<action name="updateConfig" method="update"
+			class="bakiTech.action.config.ConfigAction">
+			<result name="updated" type="redirectAction">
+				<param name="actionName">viewConfig</param>
+				<param name="namespace">/admin</param>
+			</result>
+		</action>
+		<action name="AdminlLgout">
+			<result>/admin/logoutPage.jsp</result>
+		</action>
+	</package>
+
+
+
+</struts>

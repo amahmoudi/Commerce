@@ -1,0 +1,4 @@
+requiredstring = ${getText(fieldName)} is required
+
+password = Password Required
+userId = User Name required

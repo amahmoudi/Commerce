@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/7/Commerce/src/main/java/dao/domain
+END
+OrderItemDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/Commerce/src/main/java/dao/domain/OrderItemDAO.java
+END
+OrderDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/Commerce/src/main/java/dao/domain/OrderDao.java
+END
+CategoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/Commerce/src/main/java/dao/domain/CategoryDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/Commerce/src/main/java/dao/domain/UserDao.java
+END
+ProductDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/Commerce/src/main/java/dao/domain/ProductDao.java
+END
+CitiesDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/Commerce/src/main/java/dao/domain/CitiesDao.java
+END
+ConfigDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/Commerce/src/main/java/dao/domain/ConfigDao.java
+END
+AdminUserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/Commerce/src/main/java/dao/domain/AdminUserDao.java
+END
+ForumDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/Commerce/src/main/java/dao/domain/ForumDao.java
+END

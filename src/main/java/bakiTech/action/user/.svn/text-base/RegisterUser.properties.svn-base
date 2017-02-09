@@ -1,0 +1,11 @@
+userid = User Id is required
+password = Password is required
+firstname = First Name is required
+lastname = Last Name is required
+email = Email is required
+country = Country is required
+zip = Zip is required
+state = State is required
+address = Address is required
+phone = Phone is required
+fax = Fax is required

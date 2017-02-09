@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/Commerce/src/main/java/bakiTech/action/product
+END
+AddProduct.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/7/Commerce/src/main/java/bakiTech/action/product/AddProduct.properties
+END
+SearchProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/7/Commerce/src/main/java/bakiTech/action/product/SearchProduct.java
+END
+package.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/7/Commerce/src/main/java/bakiTech/action/product/package.properties
+END
+AddProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7/Commerce/src/main/java/bakiTech/action/product/AddProduct.java
+END
+ViewProductDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/7/Commerce/src/main/java/bakiTech/action/product/ViewProductDetail.java
+END
+AddProduct-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/7/Commerce/src/main/java/bakiTech/action/product/AddProduct-validation.xml
+END
+Update.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/7/Commerce/src/main/java/bakiTech/action/product/Update.java
+END
+UpdateProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/7/Commerce/src/main/java/bakiTech/action/product/UpdateProduct.java
+END
+DeleteProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/7/Commerce/src/main/java/bakiTech/action/product/DeleteProduct.java
+END

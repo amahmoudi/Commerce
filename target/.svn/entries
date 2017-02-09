@@ -1,0 +1,77 @@
+10
+
+dir
+13
+http://baki2012.googlecode.com/svn/Commerce/target
+http://baki2012.googlecode.com/svn
+
+
+
+2012-06-20T15:13:31.426568Z
+7
+abdelbaki.mahmoudi@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+804a6537-0d9d-df32-10ec-469638d51ec9
+
+surefire
+dir
+
+maven-archiver
+dir
+
+Commerce
+dir
+
+classes
+dir
+
+generated-sources
+dir
+
+Commerce.war
+file
+
+
+
+
+2016-02-13T04:01:21.938313Z
+6ad0fd4a3ba013f4ee82c5d1e8651c2d
+2012-06-20T15:13:31.426568Z
+7
+abdelbaki.mahmoudi@gmail.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16705716
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes
+END
+global.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/global.properties
+END
+global_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/global_en.properties
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/hibernate.cfg.xml
+END
+global_fr.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/global_fr.properties
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/struts.xml
+END

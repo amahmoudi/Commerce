@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/7/Commerce/src/main/java/dao/tables
+END
+Order.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/Commerce/src/main/java/dao/tables/Order.java
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/Commerce/src/main/java/dao/tables/Category.java
+END
+Orderitems.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/Commerce/src/main/java/dao/tables/Orderitems.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/Commerce/src/main/java/dao/tables/User.java
+END
+Cities.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/Commerce/src/main/java/dao/tables/Cities.java
+END
+Product.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/Commerce/src/main/java/dao/tables/Product.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/Commerce/src/main/java/dao/tables/Config.java
+END
+Adminuser.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/Commerce/src/main/java/dao/tables/Adminuser.java
+END
+Forum.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/Commerce/src/main/java/dao/tables/Forum.java
+END

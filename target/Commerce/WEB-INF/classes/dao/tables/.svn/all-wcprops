@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/dao/tables
+END
+Order.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/dao/tables/Order.class
+END
+Category.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/dao/tables/Category.class
+END
+Orderitems.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/dao/tables/Orderitems.class
+END
+User.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/dao/tables/User.class
+END
+Cities.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/dao/tables/Cities.class
+END
+Product.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/dao/tables/Product.class
+END
+Config.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/dao/tables/Config.class
+END
+Adminuser.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/dao/tables/Adminuser.class
+END
+Forum.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/7/Commerce/target/Commerce/WEB-INF/classes/dao/tables/Forum.class
+END

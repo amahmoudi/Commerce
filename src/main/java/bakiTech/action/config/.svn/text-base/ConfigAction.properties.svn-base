@@ -1,0 +1,9 @@
+error = ${getText(fieldName)} is required
+storename =  Store Name
+storeurl = Store Url
+ordernoticeemail = Order notice E-Mail
+cursymbol = Currency Symbol
+curcode= Currency Code
+aboutustext = About Us 
+shipdeltext = Shipping Details
+Add= Add

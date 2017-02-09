@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin
+END
+AddCategory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/AddCategory.jsp
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/header.jsp
+END
+addProduct.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/addProduct.jsp
+END
+viewProductDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/viewProductDetail.jsp
+END
+viewConfig.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/viewConfig.jsp
+END
+adminHome.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/adminHome.jsp
+END
+logoutPage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/logoutPage.jsp
+END
+viewOrder.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/viewOrder.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/index.jsp
+END
+viewCategory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/viewCategory.jsp
+END
+updateConfig.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/updateConfig.jsp
+END
+viewUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/viewUser.jsp
+END
+viewProduct.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/viewProduct.jsp
+END
+addConfig.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/addConfig.jsp
+END
+updateCategory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/updateCategory.jsp
+END
+updateProduct.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/updateProduct.jsp
+END
+viewOrderItem.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/Commerce/src/main/webapp/admin/viewOrderItem.jsp
+END
